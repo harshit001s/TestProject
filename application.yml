@@ -1,3 +1,6 @@
+server:
+  port: ${random.int[80800,80090]}
+  
 spring:
   datasource:
     username: root
