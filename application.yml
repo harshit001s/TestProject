@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: EmsSalary
+  datasource:
+    url: jdbc:mysql://localhost:3306/Ems-Salary
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDB53Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
